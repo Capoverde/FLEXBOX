@@ -22,28 +22,23 @@ a {
   font-size: 100px;
   text-align: center;
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
-  width: 33.333%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 10px solid mistyrose;
-  height: 100vh;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
 }
 
 .container .box-1 {
   background: #1abc9c;
-  padding-bottom: 200px;
 }
 
 .container .box-2 {
   background: #3498db;
-  padding-bottom: 0;
 }
 
 .container .box-3 {
@@ -60,7 +55,6 @@ a {
 
 .container .box-6 {
   background: #e67e22;
-  padding-bottom: 50px;
 }
 
 .container .box-7 {
@@ -73,9 +67,6 @@ a {
 
 .container .box-9 {
   background: #2ecc71;
-  -ms-flex-item-align: stretch;
-      -ms-grid-row-align: stretch;
-      align-self: stretch;
 }
 
 .container .box-10 {

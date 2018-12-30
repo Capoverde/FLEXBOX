@@ -14,7 +14,7 @@
   font-size: 100px;
   text-align: center;
   text-shadow: $txs;
-  width: 33.333%;
+  flex: 1;
 }
 
 
@@ -23,29 +23,17 @@
 
 .container{
   display: flex;
-  border: 10px solid mistyrose;
-  height: 100vh;
-  align-items: flex-start;
   
 
-
    // colors for each box
- .box-1{background: map-get($container-colors, box1 );
-  padding-bottom: 200px;
-}
- .box-2{background: map-get($container-colors, box2 );
-  padding-bottom: 0;
-}
+ .box-1{background: map-get($container-colors, box1 )}
+ .box-2{background: map-get($container-colors, box2 )}
  .box-3{background: map-get($container-colors, box3 )}
  .box-4{background: map-get($container-colors, box4 )}
  .box-5{background: map-get($container-colors, box5 )}
- .box-6{background: map-get($container-colors, box6 );
-  padding-bottom: 50px;
-}
+ .box-6{background: map-get($container-colors, box6 )}
  .box-7{background: map-get($container-colors, box7 )}
  .box-8{background: map-get($container-colors, box8 )}
- .box-9{background: map-get($container-colors, box9 );
-  align-self: stretch;
-}
+ .box-9{background: map-get($container-colors, box9 )}
  .box-10{background: map-get($container-colors, box10)}
 }
