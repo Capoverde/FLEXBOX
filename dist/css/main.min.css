@@ -23,46 +23,7 @@ a {
   text-align: center;
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
   padding: 10px;
-}
-
-.box-1 {
-  background: #1abc9c;
-}
-
-.box-2 {
-  background: #3498db;
-}
-
-.box-3 {
-  background: #9b59b6;
-}
-
-.box-4 {
-  background: #34495e;
-}
-
-.box-5 {
-  background: #f1c40f;
-}
-
-.box-6 {
-  background: #e67e22;
-}
-
-.box-7 {
-  background: #e74c3c;
-}
-
-.box-8 {
-  background: #bdc3c7;
-}
-
-.box-0 {
-  background: #2ecc71;
-}
-
-.box-10 {
-  background: #16a085;
+  width: 300px;
 }
 
 .container {
@@ -71,5 +32,47 @@ a {
   display: flex;
   border: 8px solid goldenrod;
   min-height: 100vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .box-1 {
+  background: #1abc9c;
+}
+
+.container .box-2 {
+  background: #3498db;
+}
+
+.container .box-3 {
+  background: #9b59b6;
+}
+
+.container .box-4 {
+  background: #34495e;
+}
+
+.container .box-5 {
+  background: #f1c40f;
+}
+
+.container .box-6 {
+  background: #e67e22;
+}
+
+.container .box-7 {
+  background: #e74c3c;
+}
+
+.container .box-8 {
+  background: #bdc3c7;
+}
+
+.container .box-9 {
+  background: #2ecc71;
+}
+
+.container .box-10 {
+  background: #16a085;
 }
 /*# sourceMappingURL=main.min.css.map */
