@@ -70,10 +70,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   border: 8px solid goldenrod;
-  height: 100vh;
+  min-height: 100vh;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
 }
 /*# sourceMappingURL=main.min.css.map */
