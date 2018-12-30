@@ -31,9 +31,13 @@ a {
   display: -ms-flexbox;
   display: flex;
   border: 8px solid goldenrod;
-  min-height: 100vh;
+  height: 100vh;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .container .box-1 {
