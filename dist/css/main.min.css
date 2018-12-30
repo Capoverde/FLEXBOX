@@ -30,45 +30,54 @@ a {
   display: flex;
   border: 10px solid mistyrose;
   height: 100vh;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .container .box-1 {
   background: #1abc9c;
+  font-size: 30px;
 }
 
 .container .box-2 {
   background: #3498db;
+  font-size: 150px;
 }
 
 .container .box-3 {
   background: #9b59b6;
+  font-size: 50px;
 }
 
 .container .box-4 {
   background: #34495e;
+  font-size: 20px;
 }
 
 .container .box-5 {
   background: #f1c40f;
+  font-size: 300px;
 }
 
 .container .box-6 {
   background: #e67e22;
+  font-size: 67px;
 }
 
 .container .box-7 {
   background: #e74c3c;
+  font-size: 40px;
 }
 
 .container .box-8 {
   background: #bdc3c7;
+  font-size: 52px;
 }
 
 .container .box-9 {
   background: #2ecc71;
+  font-size: 90px;
 }
 
 .container .box-10 {
