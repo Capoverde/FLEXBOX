@@ -27,6 +27,12 @@ a {
           flex: 1;
 }
 
+.box-2 {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -14,10 +14,12 @@
   font-size: 100px;
   text-align: center;
   text-shadow: $txs;
-  flex: 1;
+  flex: 1; // zabiera całą dostępną przestrzeń
 }
 
-
+.box-2{
+  flex: 2; //Podwojona szerokosc w stosunku do ustalonej
+}
 
 // Writing flexbox here
 
