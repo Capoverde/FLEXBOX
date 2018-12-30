@@ -31,21 +31,19 @@ a {
   display: flex;
   border: 10px solid mistyrose;
   height: 100vh;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .container .box-1 {
   background: #1abc9c;
+  padding-bottom: 200px;
 }
 
 .container .box-2 {
   background: #3498db;
+  padding-bottom: 0;
 }
 
 .container .box-3 {
@@ -62,6 +60,7 @@ a {
 
 .container .box-6 {
   background: #e67e22;
+  padding-bottom: 50px;
 }
 
 .container .box-7 {
@@ -74,6 +73,8 @@ a {
 
 .container .box-9 {
   background: #2ecc71;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .container .box-10 {
