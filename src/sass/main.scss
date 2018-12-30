@@ -14,8 +14,7 @@
   font-size: 100px;
   text-align: center;
   text-shadow: $txs;
-  
-  
+  width: 33.333%;
 }
 
 
@@ -25,37 +24,21 @@
 .container{
   display: flex;
   border: 10px solid mistyrose;
-  height: 100vh; //Żeby centrowanie w pionie zadziałało container musi miec wysokosc
-  align-items: baseline; //wyrównuje do dolnej linii (textu) zawartosci boxa 
+  height: 100vh;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  // align-content działa w cross axis
 
 
    // colors for each box
- .box-1{background: map-get($container-colors, box1 );
-    font-size: 30px;  
-}
- .box-2{background: map-get($container-colors, box2 );
-    font-size: 150px;  
-}
- .box-3{background: map-get($container-colors, box3 );
-    font-size: 50px;  
-}
- .box-4{background: map-get($container-colors, box4 );
-    font-size: 20px;  
-}
- .box-5{background: map-get($container-colors, box5 );
-    font-size: 300px;  
-}
- .box-6{background: map-get($container-colors, box6 );
-    font-size: 67px;  
-}
- .box-7{background: map-get($container-colors, box7 );
-    font-size: 40px;  
-}
- .box-8{background: map-get($container-colors, box8 );
-    font-size: 52px;  
-}
- .box-9{background: map-get($container-colors, box9 );
-    font-size: 90px;  
-}
+ .box-1{background: map-get($container-colors, box1 )}
+ .box-2{background: map-get($container-colors, box2 )}
+ .box-3{background: map-get($container-colors, box3 )}
+ .box-4{background: map-get($container-colors, box4 )}
+ .box-5{background: map-get($container-colors, box5 )}
+ .box-6{background: map-get($container-colors, box6 )}
+ .box-7{background: map-get($container-colors, box7 )}
+ .box-8{background: map-get($container-colors, box8 )}
+ .box-9{background: map-get($container-colors, box9 )}
  .box-10{background: map-get($container-colors, box10)}
 }
