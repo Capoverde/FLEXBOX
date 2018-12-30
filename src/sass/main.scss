@@ -11,7 +11,7 @@
 
 .box{
   color:$f-c;
-  font-size: 20px;
+  font-size: 100px;
   text-align: center;
   text-shadow: $txs;
   
@@ -24,10 +24,10 @@
 
 .container{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   border: 10px solid mistyrose;
-  min-height: 100vh;
+  height: 100vh; //Żeby centrowanie w pionie zadziałało container musi miec wysokosc
+  align-items: center; //gefaultowo jest ustawiony na 'stech'
+
 
 
    // colors for each box
