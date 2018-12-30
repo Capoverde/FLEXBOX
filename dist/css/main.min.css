@@ -33,8 +33,8 @@ a {
   height: 100vh;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-line-pack: justify;
-      align-content: space-between;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
 }
 
 .container .box-1 {
