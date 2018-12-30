@@ -70,6 +70,6 @@ a {
   display: -ms-flexbox;
   display: flex;
   border: 8px solid goldenrod;
-  height: 100vh;
+  min-height: 100vh;
 }
 /*# sourceMappingURL=main.min.css.map */
