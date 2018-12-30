@@ -2,4 +2,74 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400");
 @import url("https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+*, ::before, ::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box {
+  color: #fff;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.box-1 {
+  background: #1abc9c;
+}
+
+.box-2 {
+  background: #3498db;
+}
+
+.box-3 {
+  background: #9b59b6;
+}
+
+.box-4 {
+  background: #34495e;
+}
+
+.box-5 {
+  background: #f1c40f;
+}
+
+.box-6 {
+  background: #e67e22;
+}
+
+.box-7 {
+  background: #e74c3c;
+}
+
+.box-8 {
+  background: #bdc3c7;
+}
+
+.box-0 {
+  background: #2ecc71;
+}
+
+.box-10 {
+  background: #16a085;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 8px solid goldenrod;
+  height: 100vh;
+}
 /*# sourceMappingURL=main.min.css.map */
