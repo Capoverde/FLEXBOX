@@ -19,8 +19,9 @@
 }
 
 // deafoultowa warto to order: 0. Wszystko co powyej jest ustawiane na końcu.
+// wszystko co ma wartosc <0 jest ustawiane przed.
 .box-3{
-  order: 1;
+  order: -1;
 }
 
 .box-7{
