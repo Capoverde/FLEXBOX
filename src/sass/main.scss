@@ -45,7 +45,7 @@
  .box-7{background: map-get($container-colors, box7 )}
  .box-8{background: map-get($container-colors, box8 )}
  .box-9{background: map-get($container-colors, box9 );
-  align-self: center;
+  align-self: stretch;
 }
  .box-10{background: map-get($container-colors, box10)}
 }
