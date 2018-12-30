@@ -30,9 +30,9 @@ a {
   display: flex;
   border: 10px solid mistyrose;
   height: 100vh;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .container .box-1 {
