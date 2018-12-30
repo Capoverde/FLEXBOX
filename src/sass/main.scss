@@ -14,26 +14,17 @@
   font-size: 100px;
   text-align: center;
   text-shadow: $txs;
-  flex:1;
+  
   
 }
 
-// deafoultowa warto to order: 0. Wszystko co powyej jest ustawiane na końcu.
-// wszystko co ma wartosc <0 jest ustawiane przed.
-.box-3{
-  order: -1;
-}
-
-.box-7{
-  order: 2;
-}
 
 
 // Writing flexbox here
 
 .container{
   display: flex;
-
+  justify-content: flex-end;
 
 
    // colors for each box
