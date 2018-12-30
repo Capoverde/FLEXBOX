@@ -26,7 +26,7 @@
   display: flex;
   border: 10px solid mistyrose;
   height: 100vh; //Żeby centrowanie w pionie zadziałało container musi miec wysokosc
-  align-items: center; //gefaultowo jest ustawiony na 'stech'
+  align-items: flex-start; //defaultowo jest ustawiony na 'stech'
 
 
 
