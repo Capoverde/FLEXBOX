@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
 @import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Happy+Monkey');
 @import 'reset';
 @import 'mixins';
 @import 'vars';
@@ -9,11 +10,31 @@
 @import 'nav';
 @import 'footer';
 
+body{
+  background:$bd-bg;
+}
+
+
+h1{
+  text-align: center;
+  padding: 30px;
+
+  a{
+    color: $link-c;
+    font-family: 'Happy Monkey';
+
+    &:hover{
+      color: red;
+      transition: .3s;
+    }
+  }
+}
+
 .box{
   color:$f-c;
   font-size: 100px;
   text-align: center;
-  text-shadow: $txs; 
+  text-shadow: $txs;
   flex-basis:500px;
   flex-grow: 1; //zajmują całą dostępną przestrzen z wolnym miejscem
 }
